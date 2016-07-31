@@ -1,4 +1,6 @@
 importance=[]
+#This is a ranker based on three criteria: the frequency of the query as a whole, the frequency of both words, and the frequency of each
+#individual word. 
 def Parse(directory, query):
     freqAllWords = 0
     freqOverall = 0
